@@ -1,0 +1,38 @@
+
+
+.deneme{ 
+    width: 20%;
+    height: 300px;
+    cursor: pointer;
+    transition: .5s all ease;
+    &:hover{
+        transform: rotateY(8deg)rotateX(8deg);
+    }
+
+    img{
+        width: 100%;
+        height: 60%;
+        object-fit: cover;
+        object-position: top;
+    }
+}
+ 
+
+@media(max-width:960px){
+
+.deneme{ 
+    width: 45%;
+    justify-content: center !important;
+    
+     
+}
+}
+@media(max-width:600px){
+
+    .deneme{ 
+        width: 90%;
+        justify-content: center !important;
+        
+         
+    }
+    }

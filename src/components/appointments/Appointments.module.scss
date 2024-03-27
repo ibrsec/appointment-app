@@ -1,0 +1,44 @@
+
+
+.appointmentCard{
+    background: linear-gradient(to left,#72949b, #efeff0 );
+    height: 100px;
+    margin-top: 1rem;
+
+    .consulted1{ 
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 10px;
+        background-color: purple;
+        border-radius: 5px 0 0 5px;
+        display:none;
+        
+    }
+    .consulted2{ 
+        position: absolute;
+        font-size: 2rem;
+        padding: 1rem 2rem;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        top: 50%; 
+        width: 300px;
+        text-align: center;
+        background-color: purple;
+        color:#fff;
+        border-radius: 25px;
+        opacity: .8;
+        display: none;
+        
+    }
+    .delete{
+        background-color: #e2b6b6;
+        cursor: pointer;
+        transition: .5s all ease;
+        &:hover{
+            opacity: .8;
+
+        }
+    }
+}
