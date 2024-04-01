@@ -15,7 +15,7 @@
     <a href="https://github.com/ibrsec/appointment-app"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://ibrsec.github.io/appointment-app/">View Demo</a>
+    <a href="https://appointment-app-snowy-beta.vercel.app/">View Demo</a>
     ·
     <a href="https://github.com/ibrsec/appointment-app/issues">Report Bug</a>
     ·
@@ -63,7 +63,7 @@
 <a name="about-the-project"></a>
 ## ℹ️ About The Project
 
-[![appointment-app](./src/img/project.gif)](https://ibrsec.github.io/appointment-app/)
+[![appointment-app](./src/img/project.gif)](https://appointment-app-snowy-beta.vercel.app/)
 
 
 
